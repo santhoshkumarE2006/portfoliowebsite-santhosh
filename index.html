@@ -1,13 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-    <div class="star"></div>
-<div class="star"></div>
-<div class="star"></div>
-<div class="star"></div>
-<div class="star"></div>
-<div class="star"></div>
-<div class="star"></div>
-<div class="star"></div>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,9 +8,18 @@
 </head>
 <body>
 
+<!-- Moved your background stars inside the body where they belong -->
+<div class="star"></div>
+<div class="star"></div>
+<div class="star"></div>
+<div class="star"></div>
+<div class="star"></div>
+<div class="star"></div>
+<div class="star"></div>
+<div class="star"></div>
+
 <nav>
     <div class="logo">SK</div>
-
     <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -29,29 +30,22 @@
 
 <section class="hero">
     <div class="hero-content">
-
-    <img src="profile.jpeg"  width="400" height="300"         alt="Santhosh Kumar" class="profile">
-
-    <h1>Santhosh Kumar E</h1>
-
-    <h2>
-        <span id="typing"></span>
-    </h2>
-
+        <!-- FIXED: Removed "images/" folder path -->
+        <img src="profile.jpeg" width="400" height="300" alt="Santhosh Kumar" class="profile">
+        <h1>Santhosh Kumar E</h1>
+        <h2>
+            <span id="typing"></span>
+        </h2>
         <p>
             Passionate about Cloud Computing, Networking,
             Databases and Modern Technologies.
         </p>
-
-        <a href="#projects" class="btn">
-            View Projects
-        </a>
+        <a href="#projects" class="btn">View Projects</a>
     </div>
 </section>
 
 <section id="about">
     <h2>About Me</h2>
-
     <p>
         I am a cloud computing enthusiast currently learning
         cloud technologies, networking, web development,
@@ -61,7 +55,6 @@
 
 <section id="skills">
     <h2>SKILLS</h2>
-
     <div class="skills-grid">
         <div class="card">CLOUD COMPUTING</div>
         <div class="card">HTML</div>
@@ -76,46 +69,40 @@
 
 <section id="certificates">
     <h2>CERTIFICATES</h2>
-
-  <div class="certificate-container">
-    <div class="certificate-card">
-        <h3>POST GRADUATE DIPLOMO IN COMPUTER APPILICATION</h3>
-        <p>(PGDCA)</p>
-        <a href="pgdcacer.jpeg" style="color: aliceblue;">view</a>
+    <div class="certificate-container">
+        <div class="certificate-card">
+            <h3>POST GRADUATE DIPLOMA IN COMPUTER APPLICATION</h3>
+            <p>(PGDCA)</p>
+            <!-- FIXED: Removed "images/" folder path -->
+            <a href="pgdcacer.jpeg" style="color: aliceblue;" target="_blank">view certificate</a>
+        </div>
+        <div class="certificate-card">
+            <h3>INTRODUCTION TO CLOUD COMPUTING ON AWS</h3>
+        </div>
+        <div class="certificate-card">
+            <h3>MODERN AI</h3>
+        </div>
+        <div class="certificate-card">
+            <h3>DATA ANALYTICS ESSENTIALS</h3>
+        </div>
     </div>
-    <div class="certificate-card">
-        <h3>INTRODUCTION TO CLOUD COMPUTING ON AWS</h3>
-    </div>
-    <div class="certificate-card">
-        <h3>MODERN AI</h3>
-    </div>
-    <div class="certificate-card">
-        <h3>DATA ANALYTICS ESSENTIALS</h3>
-    </div>
-  </div>
-
 </section>
 
 <section id="projects">
     <h2>PROJECTS</h2>
-
     <div class="project-grid">
-
         <div class="project-card">
             <h3>Portfolio Website</h3>
             <p>Responsive portfolio website.</p>
         </div>
-
         <div class="project-card">
             <h3>Cloud File Storage</h3>
             <p>Cloud-based storage solution.</p>
         </div>
-
         <div class="project-card">
             <h3>Student Management System</h3>
             <p>Manage students and records.</p>
         </div>
-
     </div>
 </section>
 
@@ -123,7 +110,7 @@
     <h2>CONTACT</h2>
     <div class="contact-container"></div>
     <p>Email: santhoshkumar1122006@gmail.com</p>
-    <a href="https://www.linkedin.com/in/santhosh-kumar-e-269430352/ " style="color: rgb(253, 252, 252);">LINKED IN </a>
+    <a href="https://www.linkedin.com/in/santhosh-kumar-e-269430352/" style="color: rgb(253, 252, 252);" target="_blank">LINKED IN</a>
 </section>
 
 <footer>
@@ -131,6 +118,5 @@
 </footer>
 
 <script src="script.js"></script>
-
 </body>
 </html>
