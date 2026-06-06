@@ -238,6 +238,9 @@ section{
         opacity:0;
     }
 }
+.hero-content{
+    padding-top: 80px;
+}
 
 footer{
     text-align:center;
